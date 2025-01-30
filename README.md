@@ -154,7 +154,7 @@ apt install build-essential man gcc gdb git libreadline-dev libsdl2-dev zstd lib
 To build NEMU as reference design, run
 ``` bash
 make menuconfig  #  at the first time when NEMU is downloaded
-make xxx-ref_defconfig
+make xxx-ref_defconfig # riscv64-xs-cpt_defconfig is for generating cpt
 make -j
 ```
 `./build/riscv64-nemu-interpreter-so` is the reference design.
